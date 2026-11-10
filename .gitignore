@@ -1,0 +1,38 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+
+# Runtime data
+data/cache/*
+data/projects/*
+data/exports/*
+data/thumbnails/*
+data/logs/*
+data/tags.json
+!data/cache/.gitkeep
+!data/projects/.gitkeep
+!data/exports/.gitkeep
+!data/thumbnails/.gitkeep
+!data/logs/.gitkeep
+
+# Local settings / OS files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+*.swp
